@@ -74,4 +74,96 @@ hr {
   text-decoration: none;
   font-size: 16px;
 }
-/* -------practise----- */
+/* -------courses style----- */
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+.course {
+  background-color: #f3f1ff;
+  border-radius: 10px;
+  padding: 12px;
+}
+.course img {
+  width: 224px;
+  height: 104px;
+}
+.course-author {
+  color: #ed6b4f;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+.course-duration {
+  color: #ff4a60;
+  background-color: #ffe4e8;
+  border-radius: 50px;
+  padding: 10px;
+}
+/* ---------------
+media queries
+-----------------*/
+/* ---------
+mobile device 
+-------------*/
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .players {
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    flex-direction: column;
+  }
+  .blogs,
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* ----------
+tablet devices---- */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .players {
+    background-color: aquamarine;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .blogs,
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* 
+---------
+medium devices
+-------- */
+@media only screen and (min-width: 992px) and (max-width: 1312px) {
+  .container {
+    width: 100%;
+  }
+  .players {
+    background-color: aquamarine;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .blogs,
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
