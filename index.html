@@ -4,163 +4,348 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leader Board</title>
+    <title>Responsive Leader Board</title>
     <link rel="stylesheet" href="styles/style.css" />
     <!-- font awesome -->
+    <!-- css from brootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
     <script
       src="https://kit.fontawesome.com/61a6132c09.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <!-- header start -->
-    <header></header>
-    <!-- header end -->
-    <main>
-      <!-- top player and top blog -->
-      <section class="container">
-        <h2 class="section-title">Top Players</h2>
-        <div class="top-players">
-          <div class="players">
-            <!-- .player*6>img[src="images/players/player-$.png"]+ h3{Top player-$} -->
-            <div class="player">
-              <img src="images/players/player-1.png" alt="" />
-              <h3 class="player-name">Top player-1</h3>
-            </div>
-            <div class="player">
-              <img src="images/players/player-2.png" alt="" />
-              <h3 class="player-name">Top player-2</h3>
-            </div>
-            <div class="player">
-              <img src="images/players/player-3.png" alt="" />
-              <h3 class="player-name">Top player-3</h3>
-            </div>
-            <div class="player">
-              <img src="images/players/player-4.png" alt="" />
-              <h3 class="player-name">Top player-4</h3>
-            </div>
-            <div class="player">
-              <img src="images/players/player-5.png" alt="" />
-              <h3 class="player-name">Top player-5</h3>
-            </div>
-            <div class="player">
-              <img src="images/players/player-6.png" alt="" />
-              <h3 class="player-name">Top player-6</h3>
-            </div>
+  <body style="background-color: #9f9f9f">
+    <header>
+      <nav class="navbar navbar-expand-lg text-white navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="images/icons/logo.png" alt="" width="41" height="51" />
+            <span class="ms-2">Idea</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse navbar-toggler"
+            id="navbarSupportedContent"
+          >
+            <ul
+              class="navbar-nav ms-auto me-2 me-lg-0 d-flex align-items-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Works</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <img
+                    src="images/icons/profile.png"
+                    alt=""
+                    width="51"
+                    height="51"
+                  />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <hr />
-        <div class="top-blogs">
-          <h2 class="section-title">Top Blogs</h2>
-          <div class="blogs">
-            <article class="blog">
-              <div class="thumbnail">
-                <img src="images/blogs/blog-1.png" alt="" />
+      </nav>
+    </header>
+    <main>
+      <section class="container rounded-3 bg-white pt-md-4 mt-lg-4">
+        <!--  -->
+        <div class="">
+          <h4 class="text-primary pb-md-4">Top Players</h4>
+
+          <div class="row mt-4">
+            <div
+              class="
+                d-flex
+                colum-glatter
+                col-lg-4 col-md-6 col-12
+                align-items-center
+              "
+            >
+              <img
+                width="56"
+                height="56"
+                src="images/players/player-1.png"
+                alt=""
+              />
+              <h4 class="ms-2">John Smith</h4>
+            </div>
+            <div
+              class="
+                d-flex
+                colum-glatter
+                col-lg-4 col-md-6 col-12
+                align-items-center
+              "
+            >
+              <img
+                width="56"
+                height="56"
+                src="images/players/player-2.png"
+                alt=""
+              />
+              <h4 class="ms-2">John Smith</h4>
+            </div>
+            <div
+              class="
+                d-flex
+                colum-glatter
+                col-lg-4 col-md-6 col-12
+                align-items-center
+              "
+            >
+              <img
+                width="56"
+                height="56"
+                src="images/players/player-3.png"
+                alt=""
+              />
+              <h4 class="ms-2">John Smith</h4>
+            </div>
+          </div>
+          <!-- 2n row -->
+          <div class="row pb-md-4">
+            <div
+              class="
+                d-flex
+                colum-glatter
+                col-lg-4 col-md-6 col-12
+                align-items-center
+              "
+            >
+              <img
+                width="56"
+                height="56"
+                src="images/players/player-4.png"
+                alt=""
+              />
+              <h4 class="ms-2">John Smith</h4>
+            </div>
+            <div
+              class="
+                d-flex
+                colum-glatter
+                col-lg-4 col-md-6 col-12
+                align-items-center
+              "
+            >
+              <img
+                width="56"
+                height="56"
+                src="images/players/player-5.png"
+                alt=""
+              />
+              <h4 class="ms-2">John Smith</h4>
+            </div>
+            <div
+              class="
+                d-flex
+                colum-glatter
+                col-lg-4 col-md-6 col-12
+                align-items-center
+              "
+            >
+              <img
+                width="56"
+                height="56"
+                src="images/players/player-6.png"
+                alt=""
+              />
+              <h4 class="ms-2">John Smith</h4>
+            </div>
+          </div>
+          <hr />
+          <h4 class="text-primary pb-md-4 pt-md-4">Top Players</h4>
+          <div class="row">
+            <div class="mb-2 d-flex align-items-center col-12 col-lg-6 pb-md-4">
+              <img
+                width="177px"
+                height="117px"
+                src="images/blogs/blog-1.png"
+                alt=""
+              />
+              <div class="ms-3">
+                <h2>13 of My Favorite UI/UX Goodies</h2>
+                <p>By <a href="#" class="card-link">Danny Sapio</a></p>
               </div>
-              <div class="blog-info">
-                <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
-                <p class="blog-author">By <a href="">Danny Sapio</a></p>
+            </div>
+            <div class="mb-2 d-flex align-items-center col-12 col-lg-6 pb-md-4">
+              <img
+                width="177px"
+                height="117px"
+                src="images/blogs/blog-2.png"
+                alt=""
+              />
+              <div class="ms-3">
+                <h2>13 of My Favorite UI/UX Goodies</h2>
+                <p>By <a href="#" class="card-link">Danny Sapio</a></p>
               </div>
-            </article>
-            <article class="blog">
-              <div class="thumbnail">
-                <img src="images/blogs/blog-2.png" alt="" />
+            </div>
+            <div class="mb-2 d-flex align-items-center col-12 col-lg-6 pb-md-4">
+              <img
+                width="177px"
+                height="117px"
+                src="images/blogs/blog-3.png"
+                alt=""
+              />
+              <div class="ms-3">
+                <h2>13 of My Favorite UI/UX Goodies</h2>
+                <p>By <a href="#" class="card-link">Danny Sapio</a></p>
               </div>
-              <div class="blog-info">
-                <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
-                <p class="blog-author">By <a href="">Danny Sapio</a></p>
+            </div>
+            <div class="mb-2 d-flex align-items-center col-12 col-lg-6 pb-md-4">
+              <img
+                width="177px"
+                height="117px"
+                src="images/blogs/blog-3.png"
+                alt=""
+              />
+              <div class="ms-3">
+                <h2>13 of My Favorite UI/UX Goodies</h2>
+                <p>By <a href="#" class="card-link">Danny Sapio</a></p>
               </div>
-            </article>
-            <article class="blog">
-              <div class="thumbnail">
-                <img src="images/blogs/blog-4.png" alt="" />
-              </div>
-              <div class="blog-info">
-                <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
-                <p class="blog-author">By <a href="">Danny Sapio</a></p>
-              </div>
-            </article>
-            <article class="blog">
-              <div class="thumbnail">
-                <img src="images/blogs/blog-3.png" alt="" />
-              </div>
-              <div class="blog-info">
-                <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
-                <p class="blog-author">By <a href="">Danny Sapio</a></p>
-              </div>
-            </article>
+            </div>
           </div>
         </div>
       </section>
-      <!-- Latest Courses -->
-      <section class="container">
-        <h2 class="section-title">Latest Course</h2>
-        <div class="courses">
-          <div class="course">
-            <div class="course-banner">
-              <img src="images/courses/course-1.png" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">React - The Complete Guide 2020</h3>
-              <p class="course-author">Reed Krakoff.</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
+      <section
+        class="container rounded-3 bg-white pt-md-4 pb-md-2 mt-lg-4 mb-md-2"
+      >
+        <div>
+          <h4 class="text-primary pb-md-4">Latest Course</h4>
+          <div class="row d-flex align-item-center mb-3 p-2">
+            <div class="p-2 col-12 col-lg-4 col-md-12">
+              <div class="justify-content-center">
+                <img
+                  class=""
+                  width="224px"
+                  height="104"
+                  src="images/courses/course-1.png"
+                  alt=""
+                />
+                <h4 class="p-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="p-1 text-danger">Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="d-flex align-cotent-center">
+                <div class="p-1">
+                  <span>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star empty"></i>
+                  </span>
                   <span>4.5</span>
                 </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:30 hr
+                <div class="ms-3 p-1 border border-primary rounded-pill clock">
+                  <img
+                    width="21"
+                    height="21"
+                    src="images/icons/clock.png"
+                    alt=""
+                  />
+                  <span class="text-danger">01:30 hr</span>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="course">
-            <div class="course-banner">
-              <img src="images/courses/course-2.png" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">React - The Complete Guide 2020</h3>
-              <p class="course-author">Reed Krakoff.</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
+            <div class="p-2 col-12 col-lg-4 col-md-12">
+              <div class="justify-content-center">
+                <img
+                  class=""
+                  width="224px"
+                  height="104"
+                  src="images/courses/course-2.png"
+                  alt=""
+                />
+                <h4 class="p-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="p-1 text-danger">Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="d-flex align-cotent-center">
+                <div class="p-1">
+                  <span>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star empty"></i>
+                  </span>
                   <span>4.5</span>
                 </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:30 hr
+                <div class="ms-3 p-1 border border-primary rounded-pill clock">
+                  <img
+                    width="21"
+                    height="21"
+                    src="images/icons/clock.png"
+                    alt=""
+                  />
+                  <span class="text-danger">01:30 hr</span>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="course">
-            <div class="course-banner">
-              <img src="images/courses/course-3.png" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">React - The Complete Guide 2020</h3>
-              <p class="course-author">Reed Krakoff.</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
+            <div class="p-2 col-12 col-lg-4 col-md-12">
+              <div class="justify-content-center">
+                <img
+                  class=""
+                  width="224px"
+                  height="104"
+                  src="images/courses/course-3.png"
+                  alt=""
+                />
+                <h4 class="p-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="p-1 text-danger">Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="d-flex align-cotent-center">
+                <div class="p-1">
+                  <span>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star empty"></i>
+                  </span>
                   <span>4.5</span>
                 </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:30 hr
+                <div class="ms-3 p-1 border border-primary rounded-pill clock">
+                  <img
+                    width="21"
+                    height="21"
+                    src="images/icons/clock.png"
+                    alt=""
+                  />
+                  <span class="text-danger">01:30 hr</span>
                 </div>
               </div>
             </div>
@@ -168,5 +353,13 @@
         </div>
       </section>
     </main>
+    <footer></footer>
+
+    <!-- js file from brootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
