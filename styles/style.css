@@ -114,21 +114,12 @@ li a {
   position: relative;
   display: inline-block;
   z-index: 1;
+  
 }
-
-/* .button-custom::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  width: 15%;
-  height: 70%;
-
-  background-color: #ff4917;
-} */
+ 
 .button-custom-in {
   position: absolute;
-  right: 0;
+  right:6px;
   width: 50%;
   height: 70%;
   border-radius: 79px;
@@ -149,4 +140,22 @@ li a {
   border-radius: 50%;
   width: 120px;
   height: 120px;
+}
+/* service */
+.service{
+  /* display: inline-block; */
+}
+/* css for video */
+.video-section{
+  
+  display: block;
+}
+.vid-bg {
+   
+  right: 0;
+  bottom: 0;
+  width: 100% !important;    
+  object-fit: cover;
+ height: 576px !important;
+  
 }
