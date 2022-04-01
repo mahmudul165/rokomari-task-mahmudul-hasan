@@ -21,18 +21,13 @@
   </head>
   <body>
     <!-- header start -->
-    <header class= "container-fluid mb-lg-3" style="background-color: #fffbf0">
+    <header class="mb-lg-3" style="background-color: white">
       <!-- navbar -->
-      <section  >
-        <nav class="navbar navbar-expand-lg">
-          <div class="container">
-            <div class="col-lg-4">
-              <img
-                width="291px"
-                height="39px"
-                src="icons/Group 33072.png"
-                alt=""
-              />
+      <section class="navbar-custom">
+        <nav class="container navbar navbar-expand-lg">
+          <div class="d-flex align-items-end">
+            <div class="col-lg-2">
+              <h3 class="fs-4 fw-bolder">COMPANY</h3>
             </div>
             <button
               class="navbar-toggler"
@@ -46,28 +41,74 @@
               <span><i class="fas fa-bars"></i></span>
             </button>
             <div
-              class="
-                collapse
-                navbar-collapse
-                col-lg-8
-                mt-3
-                w-100
-                justify-content-center
-              "
+              class="collapse navbar-collapse col-lg-10 mt-3 w-100"
               id="navbarNav"
             >
               <ul class="navbar-nav d-flex align-items-center">
                 <li class="nav-item">
                   <a class="btn" href="">Home</a>
                 </li>
+                <!-- pages -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="btn dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul
+                    class="dropdown-menu mt-3"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- services -->
+                <!-- pages -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="btn dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul
+                    class="dropdown-menu mt-3"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                  </ul>
+                </li>
                 <li class="nav-item">
-                  <a class="btn" href="">Product</a>
+                  <a class="btn" href="">Blog</a>
                 </li>
                 <li class="nav-item">
                   <a class="btn" href="">About us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="btn" href="">Contact us</a>
+                  <a class="btn" href="">Contacts</a>
+                </li>
+                <li class="nav-item">
+                  <div class="btn btn-md btn-dark rounded-pill">
+                    Consulting Now
+                    <div
+                      class="btn-color-bg rounded-pill btn btn-lg py-2 p-6"
+                    ></div>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -75,154 +116,468 @@
         </nav>
       </section>
       <!-- header content part -->
-      <section class="container">
-        <section>
-          <div class="row align-items-center p-lg-5">
-            <div class="col-lg-7 ps-5 py-5">
-              <h1 class="title text-uppercase fw-bolder ">
-                <span class="span-style">Be the Penguins </span>of Winter
+      <!-- carousel start-->
+
+      <section class="slider bg-dark">
+        <div class="container">
+          <div class="row ms-3 p-3">
+            <div class="row-cols-3 m-3 p-3">
+              <p class="fw-bolder text-white">BUSINESS CONSULTING</p>
+              <h1 class="fw-bolder text-white my-2 py-2">
+                Making Difference Growth Your Business With Modern Ideas
               </h1>
-              <p class="para-title py-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-              <button class="btn-style btn btn-primary">BUY NOW</button>
-            </div>
-            <div class="col-lg-5">
-              <img class="model-img" src="images/model.png" alt="" />
+              <div class="flex">
+                <div
+                  class="btn btn-md btn-dark rounded-pill mt-md-3 shadow-sm mr-3"
+                >
+                  Get Started Now
+                  <div
+                    class="btn-color-bg rounded-pill btn btn-lg py-2 p-6"
+                  ></div>
+                </div>
+                <!-- <div
+                  class="btn btn-md btn-white rounded-pill mt-md-3 shadow-sm mr-3 text-black"
+                >
+                  Our Services
+                  <div
+                    class="btn-color-bg rounded-pill btn btn-lg py-2 p-6"
+                  ></div>
+                </div> -->
+
+                <button class="btn bg-dark text-white button-custom">
+                  <div class="button-custom-in"></div>
+                  get started
+                </button>
+              </div>
             </div>
           </div>
-        </section>
+        </div>
       </section>
-    </header
+      <!-- carosoul end -->
+    </header>
     <!-- header end -->
+
+    <!-- About us start -->
+    <section class="about-us container d-flex">
+      <div>
+        <img
+          width="599px"
+          height="354px"
+          class="shopping-size"
+          src="/images/shopping.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <div class="d-flex">
+          <div class="bg-danger fs4 fw-bolder"><hr /></div>
+          <h5>About us</h5>
+        </div>
+        <h2>Professional Business Guidance Agency</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since Unknown printer took a galley of type and scrambled it to make a
+          type specimen book.
+        </p>
+        <ol>
+          <li>Business & Consulting Agency</li>
+          <li>Business & Consulting Agency</li>
+        </ol>
+        <button>Learn More</button>
+      </div>
+    </section>
+    <!-- About us end -->
+    <!-- customer service start -->
+
+    <section class="service mt-5 bg-light">
+      <div class="container-custom container text-center">
+        <div class="my-3">
+          <h6>Company Services</h6>
+          <h3>We Provide Most Exclusive Service for Business</h3>
+        </div>
+        <div class="div-content py-4">
+          <section>
+            <section
+              class="row row-cols-4 align-items-center rounded-3 m-0 justify-content-around"
+            >
+              <div
+                class="col-12 col-lg-3 bg-white rounded border-primary text-center"
+              >
+                <div class="card" style="width: 18rem">
+                  <div class="p-3">
+                    <img
+                      width="200px"
+                      height="200px"
+                      src="/icons/image 12.png"
+                      class="card-img-top p-3"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h6 class="card-title">Creative Idea</h6>
+                    <p class="card-text">
+                      It is a long established fact that a reader will be
+                      distracted
+                    </p>
+                    <a href="#" class="btn fw-700 fs-2">-></a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-lg-3 bg-white rounded border-primary text-center"
+              >
+                <div class="card" style="width: 18rem">
+                  <div class="p-3">
+                    <img
+                      width="200px"
+                      height="200px"
+                      src="/icons/image 13.png"
+                      class="card-img-top p-3"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h6 class="card-title">Creative Idea</h6>
+                    <p class="card-text">
+                      It is a long established fact that a reader will be
+                      distracted
+                    </p>
+                    <a href="#" class="btn fw-700 fs-2">-></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem">
+                <div class="p-3">
+                  <img
+                    width="200px"
+                    height="200px"
+                    src="/icons/image 13.png"
+                    class="card-img-top p-3"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">Creative Idea</h6>
+                  <p class="card-text">
+                    It is a long established fact that a reader will be
+                    distracted
+                  </p>
+                  <a href="#" class="btn fw-700 fs-2">-></a>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </div>
+    </section>
+    <!-- customer service end -->
     <!-- main start -->
     <main>
       <!-- women jacket part -->
       <section class="container">
         <!-- jaket-$.div>div>img+div>h2+p+div>h4+button -->
-      <section>
-        <h2 class="women-title py-lg-2">WOMEN JACKET</h2>
-       <section class="row row-cols-4 align-items-center bg-light rounded-3   m-0 justify-content-around">
-        <div class="col-12 col-lg-3 jaket-1 m-3 p-2 m-2 b-2 bg-white rounded border-primary text-center my-md-2 shadow-lg">
-          <div>
-            <img width="210px" height="257" class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2" src="images/jacket-1.png" alt="">
-            <div>
-              <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates est in veniam rerum laborum?</p>
-              <div class="row row-cols-3 justify-content-around align-items-baseline ">
-                <h5 class="text-primary ">$420</h5> 
-                <button class="btn btn-danger d-flex align-items-center  w-50 "> <img width="24" height="24" class="m-1" src="icons/shopping-cart 1.png" alt="" >Buy Now</button>
+        <section>
+          <h2 class="women-title py-lg-2">WOMEN JACKET</h2>
+          <section
+            class="row row-cols-4 align-items-center bg-light rounded-3 m-0 justify-content-around"
+          >
+            <div
+              class="col-12 col-lg-3 jaket-1 m-3 p-2 m-2 b-2 bg-white rounded border-primary text-center my-md-2 shadow-lg"
+            >
+              <div>
+                <img
+                  width="210px"
+                  height="257"
+                  class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2"
+                  src="images/jacket-1.png"
+                  alt=""
+                />
+                <div>
+                  <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora voluptates est in veniam rerum laborum?
+                  </p>
+                  <div
+                    class="row row-cols-3 justify-content-around align-items-baseline"
+                  >
+                    <button
+                      class="btn btn-danger d-flex align-items-center w-50"
+                    >
+                      <img
+                        width="24"
+                        height="24"
+                        class="m-1"
+                        src="icons/shopping-cart 1.png"
+                        alt=""
+                      />Buy Now
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>        
-        <div class="col-12 col-lg-3 jaket-2 m-3 p-2 p-2 m-2 b-2 my-md-5 bg-white rounded border-primary text-center my-md-2 shadow-lg" >
-          <div>
-            <img width="210px" height="257" class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2 shadow-sm" src="images/jacket-2.png" alt="">
-            <div>
-              <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates est in veniam rerum laborum?</p>
-              <div class="row row-cols-3 justify-content-around align-items-baseline ">
-                <h5 class="text-primary ">$420</h5> 
-                <button class="btn btn-danger d-flex align-items-center w-50  "> <img width="24" height="24" class="m-1" src="icons/shopping-cart 1.png" alt="" >Buy Now</button>
+            <div
+              class="col-12 col-lg-3 jaket-2 m-3 p-2 p-2 m-2 b-2 my-md-5 bg-white rounded border-primary text-center my-md-2 shadow-lg"
+            >
+              <div>
+                <img
+                  width="210px"
+                  height="257"
+                  class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2 shadow-sm"
+                  src="images/jacket-2.png"
+                  alt=""
+                />
+                <div>
+                  <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora voluptates est in veniam rerum laborum?
+                  </p>
+                  <div
+                    class="row row-cols-3 justify-content-around align-items-baseline"
+                  >
+                    <button
+                      class="btn btn-danger d-flex align-items-center w-50"
+                    >
+                      <img
+                        width="24"
+                        height="24"
+                        class="m-1"
+                        src="icons/shopping-cart 1.png"
+                        alt=""
+                      />Buy Now
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>   
-      <div class="col-12 col-lg-3 jaket-3 m-3 p-2 m-2 b-2 bg-white rounded border-primary text-center my-md-2 shadow-lg">
-        <div>
-          <img width="210px" height="257" class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2" src="images/jacket-3.png" alt="">
-          <div>
-            <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates est in veniam rerum laborum?</p>
-            <div class="row row-cols-3 justify-content-around align-items-baseline ">
-              <h5 class="text-primary ">$420</h5> 
-              <button class="btn btn-danger d-flex align-items-center w-50  "> <img width="24" height="24" class="m-1" src="icons/shopping-cart 1.png" alt="" >Buy Now</button>
+            <div
+              class="col-12 col-lg-3 jaket-3 m-3 p-2 m-2 b-2 bg-white rounded border-primary text-center my-md-2 shadow-lg"
+            >
+              <div>
+                <img
+                  width="210px"
+                  height="257"
+                  class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2"
+                  src="images/jacket-3.png"
+                  alt=""
+                />
+                <div>
+                  <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora voluptates est in veniam rerum laborum?
+                  </p>
+                  <div
+                    class="row row-cols-3 justify-content-around align-items-baseline"
+                  >
+                    <button
+                      class="btn btn-danger d-flex align-items-center w-50"
+                    >
+                      <img
+                        width="24"
+                        height="24"
+                        class="m-1"
+                        src="icons/shopping-cart 1.png"
+                        alt=""
+                      />Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        </div>
-      </section>
-      </section>       
+          </section>
+        </section>
       </section>
       <!-- Man jacket -->
       <section class="container my-md-5">
         <section>
-          <h2 class="women-title py-lg-2  ">Man JACKET</h2>
-         <section class="row row-cols-4 align-items-center bg-light rounded-3   m-0 justify-content-around">
-          <div class="col-12 col-lg-3 jaket-1 m-3 p-2 m-2 b-2 bg-white rounded border-primary text-center my-md-2 shadow-lg">
-            <div>
-              <img width="210px" height="257" class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2" src="images/jacket-4.png" alt="">
+          <h2 class="women-title py-lg-2">Man JACKET</h2>
+          <section
+            class="row row-cols-4 align-items-center bg-light rounded-3 m-0 justify-content-around"
+          >
+            <div
+              class="col-12 col-lg-3 jaket-1 m-3 p-2 m-2 b-2 bg-white rounded border-primary text-center my-md-2 shadow-lg"
+            >
               <div>
-                <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates est in veniam rerum laborum?</p>
-                <div class="row row-cols-3 justify-content-around align-items-baseline ">
-                  <h5 class="text-primary ">$420</h5> 
-                  <button class="btn btn-danger d-flex align-items-center w-50  "> <img width="24" height="24" class="m-1" src="icons/shopping-cart 1.png" alt="" >Buy Now</button>
+                <img
+                  width="210px"
+                  height="257"
+                  class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2"
+                  src="images/jacket-4.png"
+                  alt=""
+                />
+                <div>
+                  <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora voluptates est in veniam rerum laborum?
+                  </p>
+                  <div
+                    class="row row-cols-3 justify-content-around align-items-baseline"
+                  >
+                    <button
+                      class="btn btn-danger d-flex align-items-center w-50"
+                    >
+                      <img
+                        width="24"
+                        height="24"
+                        class="m-1"
+                        src="icons/shopping-cart 1.png"
+                        alt=""
+                      />Buy Now
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>        
-          <div class="col-12 col-lg-3 jaket-2 m-3 p-2 p-2 m-2 b-2 my-md-5 bg-white rounded border-primary text-center my-md-2 shadow-lg" >
-            <div>
-              <img width="210px" height="257" class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2 shadow-sm" src="images/jacket-5.png" alt="">
+            <div
+              class="col-12 col-lg-3 jaket-2 m-3 p-2 p-2 m-2 b-2 my-md-5 bg-white rounded border-primary text-center my-md-2 shadow-lg"
+            >
               <div>
-                <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates est in veniam rerum laborum?</p>
-                <div class="row row-cols-3 justify-content-around align-items-baseline ">
-                  <h5 class="text-primary ">$420</h5> 
-                  <button class="btn btn-danger d-flex align-items-center w-50  "> <img width="24" height="24" class="m-1" src="icons/shopping-cart 1.png" alt="" >Buy Now</button>
+                <img
+                  width="210px"
+                  height="257"
+                  class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2 shadow-sm"
+                  src="images/jacket-5.png"
+                  alt=""
+                />
+                <div>
+                  <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora voluptates est in veniam rerum laborum?
+                  </p>
+                  <div
+                    class="row row-cols-3 justify-content-around align-items-baseline"
+                  >
+                    <button
+                      class="btn btn-danger d-flex align-items-center w-50"
+                    >
+                      <img
+                        width="24"
+                        height="24"
+                        class="m-1"
+                        src="icons/shopping-cart 1.png"
+                        alt=""
+                      />Buy Now
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>   
-        <div class="col-12 col-lg-3 jaket-1 m-3 p-2 m-2 b-2 bg-white rounded border-primary text-center my-md-2 shadow-lg">
-          <div>
-            <img width="210px" height="257" class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2" src="images/jacket-6.png" alt="">
-            <div>
-              <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates est in veniam rerum laborum?</p>
-              <div class="row row-cols-3 justify-content-around align-items-baseline ">
-                <h5 class="text-primary ">$420</h5> 
-                <button class="btn btn-danger d-flex align-items-center w-50  "> <img width="24" height="24" class="m-1" src="icons/shopping-cart 1.png" alt="" >Buy Now</button>
+            <div
+              class="col-12 col-lg-3 jaket-1 m-3 p-2 m-2 b-2 bg-white rounded border-primary text-center my-md-2 shadow-lg"
+            >
+              <div>
+                <img
+                  width="210px"
+                  height="257"
+                  class="jac-img-1 align-items-center justify-content-center bg-light rounded-3 p-md-4 m-lg-2"
+                  src="images/jacket-6.png"
+                  alt=""
+                />
+                <div>
+                  <h4 class=" ">Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora voluptates est in veniam rerum laborum?
+                  </p>
+                  <div
+                    class="row row-cols-3 justify-content-around align-items-baseline"
+                  >
+                    <button
+                      class="btn btn-danger d-flex align-items-center w-50"
+                    >
+                      <img
+                        width="24"
+                        height="24"
+                        class="m-1"
+                        src="icons/shopping-cart 1.png"
+                        alt=""
+                      />Buy Now
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          </div>
+          </section>
         </section>
-        </section>  
       </section>
       <!-- 3rd part -->
       <section class="container">
-        <section class="row ">
-           <div class="col-lg-5  row  ">
-            <div class="col-12  bg-white  d-flex p-lg-3  rounded-3 my-md-4 mx-md-2">
-              <div><img width="78px" height="82px" src="icons/image 12.png" alt=""></div>
-            <div>
-               <h5 class="ps-3">Lorem ipsum dolor sit amet.</h5>
-               <p class="ps-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, vitae.</p>
-             </div>
+        <section class="row">
+          <div class="col-lg-5 row">
+            <div
+              class="col-12 bg-white d-flex p-lg-3 rounded-3 my-md-4 mx-md-2"
+            >
+              <div>
+                <img
+                  width="78px"
+                  height="82px"
+                  src="icons/image 12.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h5 class="ps-3">Lorem ipsum dolor sit amet.</h5>
+                <p class="ps-3">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Distinctio, vitae.
+                </p>
+              </div>
             </div>
-            <div class="col-12 bg-white  d-flex p-lg-3  rounded-3 my-md-4 mx-md-2">
-              <div><img width="78px" height="82px" src="icons/image 13.png" alt=""></div>
-            <div>
-               <h5 class="ps-3">Lorem ipsum dolor sit amet.</h5>
-               <p class="ps-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, vitae.</p>
-             </div>
+            <div
+              class="col-12 bg-white d-flex p-lg-3 rounded-3 my-md-4 mx-md-2"
+            >
+              <div>
+                <img
+                  width="78px"
+                  height="82px"
+                  src="icons/image 13.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h5 class="ps-3">Lorem ipsum dolor sit amet.</h5>
+                <p class="ps-3">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Distinctio, vitae.
+                </p>
+              </div>
             </div>
-            <div class="col-12 bg-white  d-flex p-lg-3  rounded-3 my-md-4 mx-md-2">
-              <div><img width="78px" height="82px" src="icons/image 14.png" alt=""></div>
-            <div>
-               <h5 class="ps-3">Lorem ipsum dolor sit amet.</h5>
-               <p class="ps-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, vitae.</p>
-             </div>
+            <div
+              class="col-12 bg-white d-flex p-lg-3 rounded-3 my-md-4 mx-md-2"
+            >
+              <div>
+                <img
+                  width="78px"
+                  height="82px"
+                  src="icons/image 14.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h5 class="ps-3">Lorem ipsum dolor sit amet.</h5>
+                <p class="ps-3">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Distinctio, vitae.
+                </p>
+              </div>
             </div>
-           </div>
-          <div class="col-lg-7  p-lg-5 col-12  ">
-            <img width="599px" height="354px" class="shopping-size" src="images/shopping.png" alt="">
+          </div>
+          <div class="col-lg-7 p-lg-5 col-12">
+            <img
+              width="599px"
+              height="354px"
+              class="shopping-size"
+              src="images/shopping.png"
+              alt=""
+            />
           </div>
           <!-- test parpouse -->
+          <div class="test-shape"></div>
         </section>
       </section>
     </main>
