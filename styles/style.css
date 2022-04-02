@@ -114,12 +114,11 @@ li a {
   position: relative;
   display: inline-block;
   z-index: 1;
-  
 }
- 
+
 .button-custom-in {
   position: absolute;
-  right:6px;
+  right: 6px;
   width: 50%;
   height: 70%;
   border-radius: 79px;
@@ -142,20 +141,26 @@ li a {
   height: 120px;
 }
 /* service */
-.service{
+.service {
   /* display: inline-block; */
 }
 /* css for video */
-.video-section{
-  
+.video-section {
   display: block;
 }
 .vid-bg {
-   
   right: 0;
   bottom: 0;
-  width: 100% !important;    
+  width: 100% !important;
   object-fit: cover;
- height: 576px !important;
-  
+  height: 576px !important;
+}
+.we-do-section {
+  margin-top: 350px;
+}
+.we-do-top-container {
+  margin-top: -300px !important;
+}
+.advisor-container div {
+  padding: 20px;
 }
